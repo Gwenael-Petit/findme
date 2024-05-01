@@ -6,6 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
 (function() {
   "use strict";
 
@@ -35,11 +36,18 @@
     }
   }
 
+  /**
+   * Image du jour
+   */
   let pic = document.getElementById("potd");
   let picname = new Date().toISOString().split("-").join("").substring(0,8)
 
   if(pic != null) pic.src= `assets/img/potd/${picname}.jpg`
 
+
+  /**
+   * Date du jour
+   */
   let datedujour = new Date();
   let dateperso = datedujour.toLocaleString('fr-FR',{
     weekday: 'long',
@@ -48,6 +56,20 @@
     year: 'numeric'});
   let jour = document.getElementById("datedujour");
   if(jour != null) jour.innerText = dateperso;
+
+/**
+ * Citation du jour
+ */
+
+let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jour on rencontre notre bouée de sauvetage","Dans le champs de pissenlis, j'ai trouvée la plus jolie rose","Tu me manques"]
+let cit = document.getElementById("citation");
+
+
+let test = list[picname.substring(7,8)-1]
+if (cit != null) cit.innerText = test;
+
+
+
   /**
    * Easy on scroll event listener 
    */
