@@ -61,7 +61,15 @@
  * Citation du jour
  */
 
-let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jour on rencontre notre bouée de sauvetage","Dans le champs de pissenlits, j'ai trouvée la plus jolie rose","Tu me manques"]
+let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jour on rencontre notre bouée de sauvetage",
+"Dans le champs de pissenlits, j'ai trouvée la plus jolie rose",
+"Tu as des jolies formes rondes, et pourtant, tu es belle dans tous les angles",
+"T'es magnifique, mais tu ne le vois pas. Les plus beaux papillons ne voient pas la couleur de leurs ailes...",
+"J'ai rêvé d'être ton miroir, moi aussi je veux te voir tous les matins et tous les soirs",
+"Je ne te laisserai jamais tomber... sauf si tu tombes amoureuse de moi",
+"Si tu me demandais combien de fois j'ai pené à toi aujourd'hui, je dirai 1 fois. Parce que j'ai pensé à toi au réveil, et depuis je n'ai pas arrêté",
+"La première fois qu'on est sorti à Porto, je me suis dis que c'était joli le soleil qui fiasait briller tes yeux... Depuis j'ai compris que ce sont tes yeux qui font briller le soleil",
+"Si je devais aller en enfer pour t'embrasser je le ferai, comme ça je raconterai au diable à qui ressemble le paradis."]
 let cit = document.getElementById("citation");
 
 
