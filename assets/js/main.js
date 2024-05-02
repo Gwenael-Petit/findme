@@ -61,7 +61,7 @@
  * Citation du jour
  */
 
-let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jour on rencontre notre bouée de sauvetage","Dans le champs de pissenlis, j'ai trouvée la plus jolie rose","Tu me manques"]
+let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jour on rencontre notre bouée de sauvetage","Dans le champs de pissenlits, j'ai trouvée la plus jolie rose","Tu me manques"]
 let cit = document.getElementById("citation");
 
 
