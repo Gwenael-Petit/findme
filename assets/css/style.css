@@ -34,6 +34,14 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+p{
+  margin-bottom: .8rem;
+}
+
+ul{
+  margin-bottom: .6rem;
+}
+
 #main {
   margin-top: 50px;
 }
@@ -511,7 +519,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .section-title h2 {
@@ -606,7 +614,7 @@ section {
 }
 
 .about .content ul li {
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 
 .about .content ul i {

@@ -67,16 +67,82 @@ let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jou
 "T'es magnifique, mais tu ne le vois pas. Les plus beaux papillons ne voient pas la couleur de leurs ailes...",
 "J'ai rêvé d'être ton miroir, moi aussi je veux te voir tous les matins et tous les soirs",
 "Je ne te laisserai jamais tomber... sauf si tu tombes amoureuse de moi",
-"Si tu me demandais combien de fois j'ai pené à toi aujourd'hui, je dirai 1 fois. Parce que j'ai pensé à toi au réveil, et depuis je n'ai pas arrêté",
-"La première fois qu'on est sorti à Porto, je me suis dis que c'était joli le soleil qui fiasait briller tes yeux... Depuis j'ai compris que ce sont tes yeux qui font briller le soleil",
-"Si je devais aller en enfer pour t'embrasser je le ferai, comme ça je raconterai au diable à qui ressemble le paradis."]
+"Si tu me demandais combien de fois j'ai pensé à toi aujourd'hui, je dirai 1 fois. Parce que j'ai pensé à toi au réveil, et depuis je n'ai pas arrêté",
+"La première fois qu'on est sorti à Porto, je me suis dis que c'était joli le soleil qui faisait briller tes yeux... Depuis j'ai compris que ce sont tes yeux qui font briller le soleil",
+"Si je devais aller en enfer pour t'embrasser je le ferai, comme ça je raconterai au diable à quoi ressemble le paradis."]
 let cit = document.getElementById("citation");
 
 
 let test = list[picname.substring(7,8)-1]
 if (cit != null) cit.innerText = test;
 
+/**
+ * Mot du jour
+ */
 
+let mdj =  ["<strong> Beauté </strong><i> (nom féminin)</i>",
+    "<strong>Inspiration  </strong><i> (nom féminin)</i>",
+    "<strong>Douce</strong><i> (adjectif)</i>",
+    "<strong>Rire </strong><i>(nom masculin)</i>",
+    "<strong>Rayonnante </strong><i> (adjectif)</i>",
+    "<strong>Cœur </strong><i>(nom masculin)</i>",
+    "<strong>Précieuse</strong><i> (adjectif)</i>"
+]
+let mot = document.getElementById("mdj");
+
+
+let test2 = mdj[picname.substring(7,8)-1]
+if (mot != null) mot.innerHTML = test2;
+
+let edj =  ["[Étymologie : Du latin belleza]",
+    "[Étymologie : Du latin inspiratio]",
+    "[Étymologie : Du latin dulcis]",
+    "[Étymologie : Du latin ridere]",
+    "[Étymologie : Du latin radiare]",
+    "[Étymologie : Du latin cor]",
+    "[Étymologie : Du latin pretiosus]",
+]
+let ety = document.getElementById("edj");
+
+
+let test3 = edj[picname.substring(7,8)-1]
+if (ety != null) ety.innerText = test3;
+
+let ddj =  [" 1.	Qualité esthétique plaisante ou attractive, caractérisée par l'harmonie, la proportion et la grâce dans les formes, les couleurs ou les compositions.<br> 2.	Caractère qui suscite l'admiration, le plaisir esthétique ou l'émerveillement, idéal esthétique.",
+  "1.	Processus créatif ou émotionnel qui suscite de nouvelles idées, sentiments ou actions.",
+  "1.	Qui est agréable au toucher, au goût ou à l'ouïe. <br> 2.	Qui est doux, tendre ou apaisant dans son caractère ou son comportement.",
+  "1.	Expression sonore de plaisir ou de gaieté, généralement produite en réaction à quelque chose de drôle ou d'amusant.",
+  "1.	Qui émet une lumière ou une énergie brillante et éclatante.<br>2.	Qui dégage une aura de bonheur, de santé ou de confiance.",
+  "1.	Organe central du système circulatoire responsable de pomper le sang à travers le corps.<br>2.	Métaphoriquement, le siège des émotions, des sentiments ou de l'amour dans une personne.",
+  "1.	Qui est extrêmement précieux, précieux ou de grande valeur, souvent en raison de sa rareté ou de son importance sentimentale.",
+]
+let def = document.getElementById("ddj");
+
+
+let test4 = ddj[picname.substring(7,8)-1]
+if (def != null) def.innerHTML = test4;
+
+
+/**
+ * Galerie
+ */
+let html=""
+let galerie = document.getElementById("galerie");
+for(let i = 20240501; i<picname; i++){
+  html+=`
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+  <div class="portfolio-wrap">
+    <img src="assets/img/potd/${i}.jpg" class="img-fluid" alt="">
+    <div class="portfolio-info">
+      <div class="portfolio-links">
+        <a href="assets/img/potd/${i}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+        <!--<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+      </div>
+    </div>
+  </div>
+</div>`
+}
+if (galerie != null)galerie.innerHTML=html
 
   /**
    * Easy on scroll event listener 
