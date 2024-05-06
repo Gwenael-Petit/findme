@@ -142,7 +142,7 @@ for(let i = 20240501; i<picname; i++){
   </div>
 </div>`
 }
-if (galerie != null)galerie.innerHTML=html
+if (galerie != null) galerie.innerHTML=html
 
   /**
    * Easy on scroll event listener 
