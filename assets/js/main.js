@@ -129,6 +129,8 @@ if (def != null) def.innerHTML = test4;
 let html=""
 let galerie = document.getElementById("galerie");
 for(let i = 20240501; i<picname; i++){
+  console.log(i);
+  console.log(html);
   html+=`
   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
   <div class="portfolio-wrap">
