@@ -86,7 +86,31 @@ let mdj =  ["<strong> Beauté </strong><i> (nom féminin)</i>",
     "<strong>Rire </strong><i>(nom masculin)</i>",
     "<strong>Rayonnante </strong><i> (adjectif)</i>",
     "<strong>Cœur </strong><i>(nom masculin)</i>",
-    "<strong>Précieuse</strong><i> (adjectif)</i>"
+    "<strong>Précieuse</strong><i> (adjectif)</i>",
+    "<strong>Égayer </strong><i>(verbe)</i>",
+    "<strong>Courage </strong><i>(nom masculin)</i>",
+    "<strong>Vie </strong><i>(nom féminin)</i>",
+    "<strong>Belle </strong><i>(adjectif)</i>",
+    "<strong>Généreuse </strong><i>(adjectif)</i>",
+    "<strong>Intelligente </strong><i>(adjectif)</i>",
+    "<strong>Apaisante </strong><i>(adjectif)</i>",
+    "<strong>Magnifique </strong><i>(adjectif)</i>",
+    "<strong>Sourire </strong><i>(nom masculin)</i>",
+    "<strong>Illumine </strong><i>(verbe)</i>",
+    "<strong>Incroyable </strong><i>(adjectif)</i>",
+    "<strong>Talentueuse </strong><i>(adjectif)</i>",
+    "<strong>Attirance </strong><i>(nom féminin)</i>",
+    "<strong>Sexy </strong><i>(adjectif)</i>",
+    "<strong>Délicate </strong><i>(adjectif)</i>",
+    "<strong>Fierté </strong><i>(nom féminin)</i>",
+    "<strong>Gentillesse </strong><i>(nom féminin)</i>",
+    "<strong>Rayon de soleil </strong><i>(expression)</i>",
+    "<strong>Charisme </strong><i>(nom masculin)</i>",
+    "<strong>Admirable </strong><i>(adjectif)</i>",
+    "<strong>Regard </strong><i>(nom masculin)</i>",
+    "<strong>Élégante </strong><i>(adjectif)</i>",
+    "<strong>Inestimable </strong><i>(adjectif)</i>",
+    "<strong>Unique </strong><i>(adjectif)</i>"
 ]
 let mot = document.getElementById("mdj");
 
@@ -101,6 +125,30 @@ let edj =  ["[Étymologie : Du latin belleza]",
     "[Étymologie : Du latin radiare]",
     "[Étymologie : Du latin cor]",
     "[Étymologie : Du latin pretiosus]",
+    "[Étymologie : Du latin gai]",
+    "[Étymologie : Du latin coraticum]",
+    "[Étymologie : Du latin vita]",
+    "[Étymologie : Du latin bellus]",
+    "[Étymologie : Du latin generosus]",
+    "[Étymologie : Du latin intelligentia]",
+    "[Étymologie : Du latin apaisare]",
+    "[Étymologie : Du latin magnificus]",
+    "[Étymologie : Du latin subridere]",
+    "[Étymologie : Du latin illuminare]",
+    "[Étymologie : Du latin incredibilis]",
+    "[Étymologie : Du latin talentum]",
+    "[Étymologie : Du latin attrahere]",
+    " ",
+    "[Étymologie : Du latin delicatus]",
+    "[Étymologie : Du latin fieret]",
+    "[Étymologie : Du latin gentilis]",
+    " ",
+    "[Étymologie : Du grec kharisma]",
+    "[Étymologie : Du latin admirabilis]",
+    "[Étymologie : Du latin regardare]",
+    "[Étymologie : Du latin elegans]",
+    "[Étymologie : Du latin inestimabilis]",
+    "[Étymologie : Du latin unicus]"
 ]
 let ety = document.getElementById("edj");
 
@@ -115,6 +163,30 @@ let ddj =  [" 1.	Qualité esthétique plaisante ou attractive, caractérisée pa
   "1.	Qui émet une lumière ou une énergie brillante et éclatante.<br>2.	Qui dégage une aura de bonheur, de santé ou de confiance.",
   "1.	Organe central du système circulatoire responsable de pomper le sang à travers le corps.<br>2.	Métaphoriquement, le siège des émotions, des sentiments ou de l'amour dans une personne.",
   "1.	Qui est extrêmement précieux, précieux ou de grande valeur, souvent en raison de sa rareté ou de son importance sentimentale.",
+  "1.	Rendre plus joyeux, plus lumineux ou plus agréable, souvent par des mots, des actions ou des gestes amusants ou encourageants.",
+  "1.	Force morale permettant de faire face à la peur, à l'adversité ou à l'opposition avec détermination et bravoure.",
+  "1.	État d'activité, d'animation et de croissance caractérisant les organismes vivants.<br>2.	Expérience individuelle ou collective de l'existence, comprenant les interactions, les émotions, les événements et les réalisations.",
+  "1.	Qui est d'une grande beauté, charme ou grâce.",
+  "1.	Qui est disposé à donner, à partager ou à aider de manière désintéressée et abondante.",
+  "1.	Dotée d'une capacité de compréhension, de raisonnement ou de résolution de problèmes supérieure à la moyenne.",
+  "1.	Qui a un effet calmant, relaxant ou réconfortant sur les sens ou les émotions.",
+  "1.	Qui est d'une grande beauté, splendeur ou grandeur.",
+  "1.	Expression faciale joyeuse caractérisée par le mouvement des lèvres et souvent des yeux, signifiant le bonheur, l'amusement ou l'affection.",
+  "1.	Rendre lumineux ou éclairer.<br>2.	Métaphoriquement, rendre joyeux, inspiré ou éclairé intellectuellement.",
+  "1.	Qui est extrêmement surprenant, impressionnant ou remarquable.",
+  "1.	Doté d'aptitudes particulières ou exceptionnelles dans un domaine spécifique, tel que l'art, la musique, le sport, etc.",
+  "1.	Force ou qualité qui suscite l'intérêt, l'admiration ou le désir chez les autres.",
+  "1.	Qui possède un attrait sexuel fort ou une sensualité séduisante.",
+  "1.	Qui est fragile, sensible ou subtil dans son caractère ou son apparence.",
+  "1.	Sentiment de satisfaction et de dignité personnelle résultant de ses propres réalisations, de celles de ses proches ou de son affiliation à quelque chose de valorisé ou de respecté.",
+  "1.	Qualité de comportement bienveillant, amical et attentionné envers les autres.",
+  "1.	Métaphore utilisée pour décrire une personne ou une chose qui apporte de la lumière, de la chaleur ou de la joie dans la vie des autres.",
+  "1.	Qualité magnétique ou séduisante qui attire et influence les autres, souvent associée à la confiance en soi, au leadership ou à la personnalité magnétique.",
+  "1.	Qui mérite l'admiration, le respect ou l'éloge en raison de ses qualités exceptionnelles ou louables.",
+  "1.	Action de fixer visuellement quelque chose, souvent accompagnée d'émotions ou de pensées.<br>2.	Expression du visage qui reflète des sentiments, des intentions ou des états émotionnels.",
+  "1.	Qui a de la grâce, du style et de la sophistication dans son apparence, son comportement ou ses actions.",
+  "1.	Qui est si précieux ou si important qu'il est impossible à estimer ou à évaluer.",
+  "1.	Qui est la seule en son genre, sans équivalent ou sans pareil."
 ]
 let def = document.getElementById("ddj");
 
@@ -128,16 +200,17 @@ if (def != null) def.innerHTML = test4;
  */
 let html=""
 let galerie = document.getElementById("galerie");
-for(let i = 20240501; i<picname; i++){
+for(let i = 1; i<picname.substring(6,8); i++){
+  if(i<10) i=`0${i}`;
   console.log(i);
   console.log(html);
   html+=`
   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
   <div class="portfolio-wrap">
-    <img src="assets/img/potd/${i}.jpg" class="img-fluid" alt="">
+    <img src="assets/img/potd/202405${i}.jpg" class="img-fluid" alt="">
     <div class="portfolio-info">
       <div class="portfolio-links">
-        <a href="assets/img/potd/${i}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+        <a href="assets/img/potd/202405${i}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
         <!--<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
       </div>
     </div>
