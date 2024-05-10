@@ -69,11 +69,21 @@ let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jou
 "Je ne te laisserai jamais tomber... sauf si tu tombes amoureuse de moi",
 "Si tu me demandais combien de fois j'ai pensé à toi aujourd'hui, je dirai 1 fois. Parce que j'ai pensé à toi au réveil, et depuis je n'ai pas arrêté",
 "La première fois qu'on est sorti à Porto, je me suis dis que c'était joli le soleil qui faisait briller tes yeux... Depuis j'ai compris que ce sont tes yeux qui font briller le soleil",
-"Si je devais aller en enfer pour t'embrasser je le ferai, comme ça je raconterai au diable à quoi ressemble le paradis."]
+"Si je devais aller en enfer pour t'embrasser je le ferai, comme ça je raconterai au diable à quoi ressemble le paradis.",
+"Je ne suis pas un grand musicien, mais depuis que je t’ai rencontré, mon coeur chante la plus belle des mélodies",
+"Quand je suis avec toi, je ne comprends pas tout ce qui se passe, cet amour me dépasse, je ne comprends pas tout ce que je ressens. Je ne vois pas le temps qui passe quand on s’enlace.",
+"Quand j’étais petit, je voulais décrocher la lune, mais depuis que je sais d'où tu viens, je ne voudrais plus jamais quitter la terre.",
+"Tu es une énigme, un mystère, un si grand cœur dans un si petit corps, un soleil au milieu de la nuit, un ange sans ailes, une œuvre d’art échappée du musée.",
+"Un jour, tu m’a souris et tu t’es allongé contre moi et depuis, toutes les chansons d’amour se sont mises à parler de toi",
+"Tu es un soleil parce que tu as les yeux qui brillent, tu es un soleil parce que ton sourire illumine mes journées, et qu’il me manque la nuit. Tu es un soleil parce que mon monde tourne autour de toi. Tu réchauffes mon coeur, si fort que quand je suis avec toi, j’ai l’impression de bronzer.",
+"Ma vie ressemble à un film, tu es l’actrice principale de mes rêves, la réalisatrice de mes vœux. J’ai des centaines de scénarios pour nous mais ils se terminent tous par “ils vécurent heureux, avec de beaux enfants”",
+"A quoi servent mes yeux si je ne peux pas regarder ton joli sourire? A quoi me sert ma bouche si je ne peux pas te dire je t’aime ? A quoi me sert mon nez si je ne peux sentir ton doux parfum ? A quoi me sert mon cœur si je ne peux pas t’aimer ? Sans toi je suis un été sans soleil, sans toi, je ne suis rien.",
+"Je travaille dur chaque jour pour être à tes côtés. Depuis que je sais que je veux être avec toi pour le reste de ma vie, je veux que me reste de ma vie, commence le plus vite possible",
+]
 let cit = document.getElementById("citation");
 
 
-let test = list[picname.substring(7,8)-1]
+let test = list[picname.substring(6,8)-1]
 if (cit != null) cit.innerText = test;
 
 /**
@@ -115,7 +125,7 @@ let mdj =  ["<strong> Beauté </strong><i> (nom féminin)</i>",
 let mot = document.getElementById("mdj");
 
 
-let test2 = mdj[picname.substring(7,8)-1]
+let test2 = mdj[picname.substring(6,8)-1]
 if (mot != null) mot.innerHTML = test2;
 
 let edj =  ["[Étymologie : Du latin belleza]",
@@ -153,7 +163,7 @@ let edj =  ["[Étymologie : Du latin belleza]",
 let ety = document.getElementById("edj");
 
 
-let test3 = edj[picname.substring(7,8)-1]
+let test3 = edj[picname.substring(6,8)-1]
 if (ety != null) ety.innerText = test3;
 
 let ddj =  [" 1.	Qualité esthétique plaisante ou attractive, caractérisée par l'harmonie, la proportion et la grâce dans les formes, les couleurs ou les compositions.<br> 2.	Caractère qui suscite l'admiration, le plaisir esthétique ou l'émerveillement, idéal esthétique.",
@@ -191,7 +201,7 @@ let ddj =  [" 1.	Qualité esthétique plaisante ou attractive, caractérisée pa
 let def = document.getElementById("ddj");
 
 
-let test4 = ddj[picname.substring(7,8)-1]
+let test4 = ddj[picname.substring(6,8)-1]
 if (def != null) def.innerHTML = test4;
 
 
@@ -202,8 +212,8 @@ let html=""
 let galerie = document.getElementById("galerie");
 for(let i = 1; i<picname.substring(6,8); i++){
   if(i<10) i=`0${i}`;
-  console.log(i);
-  console.log(html);
+  //console.log(i);
+  //console.log(html);
   html+=`
   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
   <div class="portfolio-wrap">
