@@ -78,7 +78,15 @@ let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jou
 "Tu es un soleil parce que tu as les yeux qui brillent, tu es un soleil parce que ton sourire illumine mes journées, et qu’il me manque la nuit. Tu es un soleil parce que mon monde tourne autour de toi. Tu réchauffes mon coeur, si fort que quand je suis avec toi, j’ai l’impression de bronzer.",
 "Ma vie ressemble à un film, tu es l’actrice principale de mes rêves, la réalisatrice de mes vœux. J’ai des centaines de scénarios pour nous mais ils se terminent tous par “ils vécurent heureux, avec de beaux enfants”",
 "A quoi servent mes yeux si je ne peux pas regarder ton joli sourire? A quoi me sert ma bouche si je ne peux pas te dire je t’aime ? A quoi me sert mon nez si je ne peux sentir ton doux parfum ? A quoi me sert mon cœur si je ne peux pas t’aimer ? Sans toi je suis un été sans soleil, sans toi, je ne suis rien.",
-"Je travaille dur chaque jour pour être à tes côtés. Depuis que je sais que je veux être avec toi pour le reste de ma vie, je veux que me reste de ma vie, commence le plus vite possible",
+"Je travaille dur chaque jour pour être à tes côtés. Depuis que je sais que je veux être avec toi pour le reste de ma vie, je veux que le reste de ma vie, commence le plus vite possible",
+"L’amour vaut tout l’or du monde, je n’avais jamais compris pourquoi on disait ça. Mais maintenant je sais, c’est parce que tu as un coeur en or, le plus grand coeur du monde",
+"Tu es une grande artiste, quand tu passes devant un miroir, il se transforme en le plus beau tableau du monde",
+"Je t’aime. Je t’aime heureuse, je t’aime triste, je t’aime en colère ou fatiguée. Je t’aime le jour et la nuit. Je t’aime en robe de soirée bien maquillée, je t’aime en pyjama devant la télé.Je t’aimais, je t’aime et je t’aimerais.",
+"J’ai passé 20 ans à attendre, et quand je t’ai trouvé, j’ai compris que cela faisait 20 ans que je te cherchais.",
+"T’aimer, c’est retomber amoureux de toi chaque jour. Moi je retombe amoureux de toi à chacun de tes mots.",
+"Quand je pense à notre relation, je ne vois aucun nuage à l’horizon, plutôt logique puisque je suis amoureux du soleil.",
+"Quand tu me parles, tu réchauffes mon cœur, quand je te vois mon cœur brûle d’amour. Ma vie est un incendie éternel, ma flamme ne s’éteindra jamais.",
+"L'amour aérien t'informe qu'un baiser vient de décoller de l'aéroport de mon cœur et te demande de préparer la piste de tes lèvres pour un atterrissage en douceur."
 ]
 let cit = document.getElementById("citation");
 
