@@ -89,7 +89,8 @@ let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jou
 "L'amour aérien t'informe qu'un baiser vient de décoller de l'aéroport de mon cœur et te demande de préparer la piste de tes lèvres pour un atterrissage en douceur.",
 "L'amour c'est ce grand fil infini qui me connecte à toi peu importe la distance, ce fil incassable, plus fort que tout. Ce fil, je te prommet d'en prendre soin et ensemble, on fera du crochet pour en faire la plus jolie couverture",
 "Tu as les yeux revolvers, tu le regards qui tue, tu as tiré la première, tu m'as touché je sui foutu. Bon d'accord celle là elle est pas de moi ^^ ",
-
+"Je t'aime, un peu, beaucoup, passionnément, à la folie, pour la vie",
+"Tu es la plus belle du monde, le plus beau des anges, la plus belle des déesses"
 ]
 let cit = document.getElementById("citation");
 
