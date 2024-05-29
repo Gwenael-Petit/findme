@@ -90,7 +90,8 @@ let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jou
 "L'amour c'est ce grand fil infini qui me connecte à toi peu importe la distance, ce fil incassable, plus fort que tout. Ce fil, je te prommet d'en prendre soin et ensemble, on fera du crochet pour en faire la plus jolie couverture",
 "Tu as les yeux revolvers, tu le regards qui tue, tu as tiré la première, tu m'as touché je sui foutu. Bon d'accord celle là elle est pas de moi ^^ ",
 "Je t'aime, un peu, beaucoup, passionnément, à la folie, pour la vie",
-"Tu es la plus belle du monde, le plus beau des anges, la plus belle des déesses"
+"Tu es la plus belle du monde, le plus beau des anges, la plus belle des déesses",
+"Tu es la plus jolie des fleurs, et je vais t'arroser de bonheur ma petite rose"
 ]
 let cit = document.getElementById("citation");
 
