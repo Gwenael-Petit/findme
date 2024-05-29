@@ -86,7 +86,10 @@ let list =  ["La vie est un océan, il faut surmonter les vagues, et puis un jou
 "T’aimer, c’est retomber amoureux de toi chaque jour. Moi je retombe amoureux de toi à chacun de tes mots.",
 "Quand je pense à notre relation, je ne vois aucun nuage à l’horizon, plutôt logique puisque je suis amoureux du soleil.",
 "Quand tu me parles, tu réchauffes mon cœur, quand je te vois mon cœur brûle d’amour. Ma vie est un incendie éternel, ma flamme ne s’éteindra jamais.",
-"L'amour aérien t'informe qu'un baiser vient de décoller de l'aéroport de mon cœur et te demande de préparer la piste de tes lèvres pour un atterrissage en douceur."
+"L'amour aérien t'informe qu'un baiser vient de décoller de l'aéroport de mon cœur et te demande de préparer la piste de tes lèvres pour un atterrissage en douceur.",
+"L'amour c'est ce grand fil infini qui me connecte à toi peu importe la distance, ce fil incassable, plus fort que tout. Ce fil, je te prommet d'en prendre soin et ensemble, on fera du crochet pour en faire la plus jolie couverture",
+"Tu as les yeux revolvers, tu le regards qui tue, tu as tiré la première, tu m'as touché je sui foutu. Bon d'accord celle là elle est pas de moi ^^ ",
+
 ]
 let cit = document.getElementById("citation");
 
@@ -219,7 +222,7 @@ if (def != null) def.innerHTML = test4;
 let html=""
 let galerie = document.getElementById("galerie");
 for(let i = 1; i<picname.substring(6,8); i++){
-  if(i<10) i=`0${i}`;
+  if(i<10) i=(`0${i}`);
   //console.log(i);
   //console.log(html);
   html+=`
