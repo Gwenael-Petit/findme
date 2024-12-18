@@ -223,7 +223,7 @@ if (def != null) def.innerHTML = test4;
  */
 let html=""
 let galerie = document.getElementById("galerie");
-for(let i = 1; i<picname.substring(6,8); i++){
+for(let i = 1; i<picname.substring(6,8)-17; i++){
   if(i<10) i=(`0${i}`);
   //console.log(i);
   //console.log(html);
@@ -233,7 +233,7 @@ for(let i = 1; i<picname.substring(6,8); i++){
     <img src="assets/img/potd/202405${i}.jpg" class="img-fluid" alt="">
     <div class="portfolio-info">
       <div class="portfolio-links">
-        <a href="assets/img/potd/202405${i}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+        <a href="assets/img/potd/202412${i}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
         <!--<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
       </div>
     </div>
