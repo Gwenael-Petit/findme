@@ -230,7 +230,7 @@ for(let i = 1; i<picname.substring(6,8)-17; i++){
   html+=`
   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
   <div class="portfolio-wrap">
-    <img src="assets/img/potd/202405${i}.jpg" class="img-fluid" alt="">
+    <img src="assets/img/potd/202412${i}.jpg" class="img-fluid" alt="">
     <div class="portfolio-info">
       <div class="portfolio-links">
         <a href="assets/img/potd/202412${i}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
