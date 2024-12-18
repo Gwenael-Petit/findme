@@ -223,7 +223,7 @@ if (def != null) def.innerHTML = test4;
  */
 let html=""
 let galerie = document.getElementById("galerie");
-for(let i = 1; i<picname.substring(6,8)-17; i++){
+for(let i = 18; i<picname.substring(6,8); i++){
   if(i<10) i=(`0${i}`);
   //console.log(i);
   //console.log(html);
