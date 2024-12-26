@@ -221,25 +221,61 @@ if (def != null) def.innerHTML = test4;
 /**
  * Galerie
  */
+
+function getDatesBetween(startDate, endDate) {
+  const dates = [];
+  let currentDate = new Date(startDate);
+
+  while (currentDate <= endDate) {
+      dates.push(formatDate(currentDate)); // Ajoute la date formatée
+      currentDate.setDate(currentDate.getDate() + 1); // Passe au jour suivant
+  }
+
+  return dates;
+}
+
+function formatDate(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0'); // Mois avec un zéro initial
+  const day = String(date.getDate()).padStart(2, '0'); // Jour avec un zéro initial
+  return `${year}${month}${day}`;
+}
+
+// Définir les dates
+const startDate = new Date(new Date().getFullYear(), 11, 18); // 18 décembre
+const endDate = new Date(); // Date du jour
 let html=""
 let galerie = document.getElementById("galerie");
-for(let i = 18; i<picname.substring(6,8); i++){
-  if(i<10) i=(`0${i}`);
-  //console.log(i);
-  //console.log(html);
-  html+=`
+// Appeler la fonction et afficher les résultats
+const dates = getDatesBetween(startDate, endDate);
+dates.forEach(date => 
+  {console.log(date);
+    html+=`
   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
   <div class="portfolio-wrap">
-    <img src="assets/img/potd/202412${i}.jpg" class="img-fluid" alt="">
+    <img src="assets/img/potd/${date}.jpg" class="img-fluid" alt="">
     <div class="portfolio-info">
       <div class="portfolio-links">
-        <a href="assets/img/potd/202412${i}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+        <a href="assets/img/potd/${date}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
         <!--<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
       </div>
     </div>
   </div>
 </div>`
-}
+
+});
+
+
+
+/*let picdate = new Date().toISOString().split('T')[0].replaceAll('-','')
+console.log(picdate)
+let picmonth=picdate.substring(0,6)
+for(let i = 18; i<picname.substring(6,8); i++){
+  if(i<10) i=(`0${i}`);
+  //console.log(i);
+  //console.log(html);
+  
+}*/
 if (galerie != null) galerie.innerHTML=html
 
   /**
