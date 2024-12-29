@@ -250,6 +250,7 @@ let galerie = document.getElementById("galerie");
 const dates = getDatesBetween(startDate, endDate);
 dates.forEach(date => 
   {console.log(date);
+    let citofday = list[date.substring(6,8)-1];
     html+=`
   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
   <div class="portfolio-wrap">
@@ -257,6 +258,7 @@ dates.forEach(date =>
     <div class="portfolio-info">
       <div class="portfolio-links">
         <a href="assets/img/potd/${date}.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+        <p color="white">${citofday}</p>
         <!--<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
       </div>
     </div>
