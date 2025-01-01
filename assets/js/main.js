@@ -242,12 +242,13 @@ function formatDate(date) {
 }
 
 // Définir les dates
-const startDate = new Date(new Date().getFullYear(), 11, 18); // 18 décembre
+const startDate = new Date(new Date().getFullYear()-1, 11, 18); // 18 décembre
 const endDate = new Date(); // Date du jour
 let html=""
 let galerie = document.getElementById("galerie");
 // Appeler la fonction et afficher les résultats
 const dates = getDatesBetween(startDate, endDate);
+console.log(dates)
 dates.forEach(date => 
   {console.log(date);
     let citofday = list[date.substring(6,8)-1];
